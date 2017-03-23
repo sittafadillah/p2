@@ -1,0 +1,27 @@
+/*
+Nama source file : operator_aritmatika
+*/
+#include <iostream> //aturan dr c++
+using namespace std;
+
+int main()
+{
+    int r = 10;
+    int s;
+
+    r++; //++itu sama dengan r+1
+    s = 10 + r;
+
+    cout <<"r = "<<r<<'\n';
+    cout <<"s = "<<s<<'\n';
+
+    r=10;
+    s=10 + ++r;
+
+    cout<<endl;
+    cout<<"r = "<<r<<'\n';
+    cout<<"s = "<<s<<'\n';
+    cout<<"hasil dari 5 % 7 adalah "<<5%7<<'\n';
+
+    return 0;
+}
