@@ -1,0 +1,56 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+int main()
+{
+    char nama[20];
+    char kampus[30];
+    int nim;
+    char prodi [30];
+    char alamat [50];
+    char agama [10];
+    long telepon;
+    char fb[20];
+
+
+
+
+    cout << "Ketikkan nama anda: ";
+    cin >> nama;//membaca inputan dari keyboard
+
+    cout<< "Masukkan kampus anda:";
+    cin>>kampus;
+
+    cout<< "Masukkan NIM anda :";
+    cin>>nim;
+
+    cout<< "Masukkan prodi anda:";
+    cin>>prodi;
+
+    cout<< "Masukkan alamat anda :";
+    cin>>alamat;
+
+    cout<<"agama:";
+    cin>>agama;
+
+    cout<< "Masukkan telepon anda:";
+    cin>>telepon;
+
+    cout<< "Masukkan fb anda:";
+    cin>>fb;
+    system("cls");
+
+    cout<<"nama : "<<nama<<endl;
+    cout<<"kampus : "<<kampus<<endl;
+    cout<<"nim : "<<nim<<endl;
+    cout<<"prodi: "<<prodi<<endl;
+    cout<<"alamat :"<<alamat<<endl;
+    cout<<"agama :"<<agama<<endl;
+    cout<<"telepon :"<<telepon<<endl;
+    cout<<"fb : "<<fb<<endl;
+
+
+    return 0;
+}
+
+
