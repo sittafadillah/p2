@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+    int p;
+    int l;
+    int t;
+    int L;
+    int v;
+
+    cout << "Masukkan Panjang  : ";
+    cin >> p;
+
+    cout << "Masukkan Lebar    : ";
+    cin >> l;
+
+    cout << "Masukkan Tinggi   : ";
+    cin >> t;
+
+    v= p*l*t;
+    L= (2*p*l)+(2*p*t)+(2*l*t);
+
+    cout << "Volume dan Luas Permukaan Balok"<<endl;
+    cout << "Volume           : "<<v<<endl;;
+    cout << "Luas Permukaan   : "<<L<<endl;
+
+    return 0;
+}
+
