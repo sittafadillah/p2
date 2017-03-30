@@ -1,0 +1,41 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+int main ()
+{
+    string depan;
+    string belakang;
+    string bulan;
+    int tgl;
+    int tahun;
+    int umur;
+    int usia;
+
+    cout << "Masukkan Biodata Anda "<<'\n';
+
+    cout << "Nama Depan           : ";
+    cin >> depan;
+
+    cout << "Nama Belakang        : ";
+    cin >> belakang;
+
+    cout << "Tanggal Lahir "<<'\n';
+
+    cout << "Tanggal              : ";
+    cin >> tgl;
+
+    cout << "Bulan                : ";
+    cin >> bulan;
+
+    cout << "Tahun                : ";
+    cin >> tahun;
+    system("cls");
+
+    usia= 2017-tahun;
+
+    cout << "Nama Anda            : "<<depan <<" "<<belakang<<endl;
+    cout << "Tanggal Lahir Anda   : "<<tgl <<" "<<bulan<< " "<<tahun<<endl;
+    cout << "Umur Anda            : "<<usia<<endl;
+
+    return 0;
+}
